@@ -1,0 +1,629 @@
+We set grammar and mechanics rules to help our writers create clear, concise and consistent copy across all content types. This section explains our house style, which all our content follows unless client notes say differently. Always use client notes when available!
+
+(Use Ctrl+F or the search feature to help you find what you’re looking for!)
+
+# T**he Basics**
+
+- **Write for all readers**. Whether your readers hang on to your every word or skim for the main points, use specific headings and subheadings to break up text and group similar ideas.
+- **Follow the inverted pyramid technique.** Order your information so you lead with the most important information.
+- **Be clear.** Avoid vague language or unnecessary jargon. Get to the point quickly.
+    - Paragraphs should not be excessively long. White space is great! Break up excessively long sentences into two sentences for better readability.
+- **Be concise.** Keep your words and sentences short, and pick simple words to make your point. Avoid unnecessary modifiers, and eradicate filler words from your writing.
+    - Avoid repeating the same words and/or phrases in consecutive sentences.
+- **Be consistent.** Closely follow the points detailed in this guide.
+
+<aside>
+‼️ Our in-house style generally follows **AP Style guidelines**. If you're ever unsure what spelling/formatting/punctuation to use i.e. if a word is spelled multiple ways throughout their site, or a grammatically incorrect word/punctuation is used throughout the existing site, **please default to AP styling**. 
+
+**Writers:** Please **make a** **note of your decision**, as well as some examples from the client's current site, for your Copy PM in your completion comment.
+**Editors:** When sending your completed copy comment, please let the requestor know about our decision.
+
+</aside>
+
+---
+
+# **Part 1: Guidelines**
+
+## **Abbreviations and acronyms**
+
+Spell out abbreviations or acronyms the first time you bring it up, and specify the abbreviation with parentheses. Use the shortened version for all other references.
+
+– **First use:** Network Operations Center (NOC)
+
+– **Second use:** NOC
+
+– **First use:** Coordinated Universal Time (UTC)
+
+– **Second use:** UTC
+
+If the abbreviation or acronym is well-known, like API or HTML, use it instead (and don’t worry about spelling it out).
+
+## **Active voice**
+
+Use active voice. Avoid passive voice whenever possible.
+
+In active voice, the subject of the sentence does the action. In passive voice, the subject of the sentence has the action done to it.
+
+– **Yes:** The survey voted the company the best place to work.
+
+– **No:** The company was voted best place to work according to the survey.
+
+Words like “was” and “be” may indicate you’re writing in passive voice. Avoid using be-verbs. Scan for these words and rework sentences where they appear.
+
+Resources:
+
+- Active voice worksheet
+- Tips and Tools: Passive Voice
+- Grammarly Passive Voice Blog
+- Passive Voice Detector
+
+## **Capitalization and AP title case**
+
+We follow AP Style guidelines when capitalizing titles and subheadings. All H1s, H2s and H3s should utilize AP Title Case unless client notes specify otherwise.
+
+- As part of AP Title Case, do capitalize:
+    - The first word, last word and all nouns, pronouns, verbs, adverbs and adjectives.
+    - Conjunctions and prepositions longer than three letters (this includes “From” and “With”).
+    - *Is* and *It (Is* is a verb and *It* is a pronoun).
+- Don’t capitalize: “a” “an” “and” “at” “but” “by” “for” “if” “in” “nor” “of” “on” “or” “so” “the” “to” “up” and “yet.”
+    - *Exemption:* When a proper noun includes a word like “For”. For example, TikTok's "For You" page is an official name. DO capitalize "For" in this instance (although it is a preposition we would typically lowercase) because it is part of a proper noun.
+    - **Note!** Some of these words may need to be capitalized based on their part of speech in a sentence. For example, if "so" or "yet" are used as an adverb (i.e. This Is So Awesome), capitalize them!
+- **How to capitalize hyphenated words:** While there are no steadfast AP rules for hyphenated words and some style guides say to NOT capitalize words following first word in hyphen unless it’s proper (“Cost-effective” instead of “Cost-Effective”), **our house style is to capitalize the second word** i.e. How to Make a Well-**Informed** Decision About Siding.
+    - DO capitalize the second word in a hyphened phrase *even if that word would typically be lowercase on its own*. Example: Built-**In** Feature
+- **If subheadings are running long or in the form of a sentence:** This doesn’t happen often! As a rule of thumb, use AP title case for consistency with the rest of a project’s subheadings, unless the client notes specify otherwise.
+    - If a subheading is running long, edit it to make it shorter if possible.
+
+<aside>
+‼️ **Differences between AP Title Case and our in-house style:**
+
+1. The AP Stylebook says to capitalize “to” when using title case (i.e. question “How **T**o Bake a Cake”). However, our in-house style is to leave “to” lowercase (i.e. “How **t**o Bake a Cake”).
+
+2. Some title case capitalization sites will capitalize preposition words in contexts like "Reach **O**ut" and "Sign **U**p." However, our in-house style is to leave these lowercase (i.e. "Reach **o**ut" and "Sign **u**p").
+
+</aside>
+
+Capitalize the first word after a colon in a sentence only if it is a proper noun or the start of a complete sentence.
+
+– **Yes:** If you’re a webmaster then you know what we’re talking about: Spammers use referrer spam to draw attention.
+
+– **No:** If you’re a webmaster then you know what we’re talking about: Referrer spam.
+
+Resources:
+
+- Common Capitalization Rules
+- Headline Capitalization Tool
+- Capitalize My Title
+- How to Correctly Use AP Style Title Case
+- AP Stylebook – Capitalization section
+
+## **Contractions**
+
+Don’t be afraid to use contractions! They will help make copy more conversational and less rigid, giving it an informal, friendlier tone.
+
+When using contractions, be consistent. For example, avoid using the contraction “We’ll” in one paragraph and then spelling it out as “We will” in another paragraph. If you decide to use contractions, use them consistently across a page as well as across pages in a single batch.
+
+Resources:
+
+- Contractions – When Can I Use Them?
+- Five Tips for Using Contractions in Business Writing
+
+## **Dangling modifiers**
+
+A dangling modifier is a phrase that describes a word but isn’t clearly connected to the word in the sentence. Avoid dangling modifiers.
+
+– **No:** After finishing the chores, *American Idol* started.
+
+^^ This modifier expresses an action, but American Idol isn’t the one doing the action. Since the doer of the action isn’t made clear, this is a dangling modifier. It could be corrected by changing the subject of the sentence to the doer of the modifier’s action (like the example below).
+
+– **Yes:** After finishing the chores, *Henry* started watching American Idol.
+
+^^ Here, the modifier “After finishing the chores” describes the subject of the main clause (Henry), so this modifier is properly placed.
+
+Resources:
+
+- Dangling Modifiers and How to Correct Them
+- How to Eliminate Dangling Modifiers From Your Writing
+- Misplaced and Dangling Modifiers
+
+## **Point of view**
+
+Second person is the POV of choice, unless client notes or specs specify otherwise. For example, instead of “for those who enjoy” you can say “If you enjoy.” This makes it more personal and engaging. Another example is using “you” instead of “our customers” or “our clients.”
+
+Aim to edit out “we” in posts whenever possible, apart from the CTA. For many forms of writing, switching point of view is often frowned upon, especially if you’ve been trained to pick a voice and stick with it.
+
+For CTAs, however, **do** use first-person POV to write on behalf of the client — for example, saying “our company” instead of “the company.”
+
+Resources:
+
+- The Two Most Important Words in Blogging
+- When to Write Business Copy in Second-Person Point of View
+- Secrets to Use Pronouns in Copywriting and Boost Marketing Results
+
+## Recipes
+
+For projects that collect recipes into one post, **reword the recipes so they are in your own words**. Repeating recipes verbatim causes duplicate copy and can make a project too long.
+
+Instead, it’s generally best to put the ingredients and steps into sentences. Use numerals and fractions but not abbreviations: “2 teaspoons” not “two tsp.”
+
+If we’re using the client’s recipes, include a link to the recipe page so readers can easily get the full details if they want. If it’s not the client’s recipe, link to it if it’s from an authoritative source, e.g. a food magazine rather than an individual’s blog.
+
+**YES Example**
+
+!recipes`.png
+
+**NO Examples**
+
+!recipes no.png
+
+!recipesno2.png
+
+Resources:
+
+- AP’s recipe entry
+- How To Share A Recipe Properly – Step By Step Instructions
+- Recipe Attribution
+
+## **Slang and jargon**
+
+Write in plain English. If you need to use a technical term, briefly define it so everyone can understand.
+
+Avoid overly formal, academic-like phrases such as “Further” and “Furthermore” and using the subheading “Conclusion.” We don’t want content to sound like academic research papers (unless specifically noted in the project specs), so do your best to be engaging and benefits-driven when possible.
+
+Resources:
+
+- When to Use Jargon: A Copywriter’s Guide
+- Make Your Writing Compelling by Cutting the Jargon
+- The Key to Good Copywriting? Jettison the Jargon and Keep It Simple
+
+## Rhetorical language
+
+Avoid rhetorical, self-referential language, including:
+
+- Click here
+- Read on
+- In this article
+- As mentioned above
+- As mentioned earlier
+- Let’s take a look at
+- Here, we discuss
+- Continue reading
+- Visit our website to
+- As discussed
+
+These phrases can often be omitted to reduce fluff and filler. Instead, use a stronger, more concise phrasing or sentence structure.
+
+## **Text formatting**
+
+Don’t use underline formatting, and don’t use any combination of italic, bold, caps and underline.
+
+Left-align text, never center or right-aligned. There should be no indents on paragraphs. This includes list posts or bullet lists where the content of each bullet point is longer than a few words. Please make each main point of the list a separate subhead, with content following underneath as a paragraph.
+
+Bullet points in listicle style blog posts should also be left-aligned.
+
+Leave one space between sentences, never two.
+
+## **Write positively**
+
+Use positive language rather than negative language. One way to detect negative language is to look for words like can’t, don’t, etc.
+
+– **Yes:** To get a doughnut, stand in line.
+
+– **No:** You can’t get a doughnut if you don’t stand in line.
+
+Resources:
+
+- Tone of Voice 101: How to Write Copy That People Can Connect With
+- Why Should You Use Positive Language?
+- What Is Tone in Writing?
+- 7 Negative Words You Should Avoid in Copywriting
+
+---
+
+# **Part 2: Numbers**
+
+## **General numbers**
+
+Spell out a number under 10 or when it begins a sentence. Otherwise, use the numeral. This includes ordinals, too.
+
+– Ten new team members started on Monday, and 12 start next week.
+
+– I ate three doughnuts at Coffee Hour.
+
+– Steve won first place in last year’s pie-making contest.
+
+– We welcomed more than 30 new team members this summer.
+
+Particularly, use numerals for:
+
+– **Addresses:** 1705 North Front Street
+
+– **Ages:** A 4-month-old puppy
+
+– **Centuries:** Use figures for numbers 10 and higher (20th century), and spell out numbers nine and lower (ninth century)
+
+– **Court decisions and votes:** The Supreme Court ruled 6-3
+
+– **Dates, years and decades:** Dec. 8, 1971
+
+– **Decimals, percentages and fractions with numbers larger than one:** 3.5% of respondents said…
+
+– **Dimensions:** 5 feet, 6 inches, 3/4 inch, 8 1/4 inches (Note: Use fractions rather than decimals for dimensions, following AP style's fractions rule)
+
+– **Distances:** He walked 2 miles
+
+– **Numbers over 1 million:** 1 million, 7 billion, etc.
+
+– **School grades:** Use numerals for grades 10 and above; spell out first through ninth
+
+– **Speeds:** 2 mph
+
+– **Temperatures:** The temperature dropped by 3 degrees
+
+Numbers with more than three digits get commas:
+
+– 999
+
+– 1,000
+
+– 150,000
+
+Write out numbers into the thousands in full. Abbreviate them if there are space restraints, as in a tweet or a chart: 1k, 150k.
+
+Resources:
+
+- Writing Explained: AP Style Numbers
+- AP Stylebook, Numerals section
+- Understanding AP Style Numbers
+
+## **Numbers in keywords**
+
+Sometimes, numbers will be formatted in keywords in a way that goes against typical AP style rules (such as “3 Wheel Forklifts”). In these cases, you can use numerals even for numbers under 10 in the subheads. Then, spell out the numbers like we typically would per AP Style in the body copy.
+
+Example:
+
+[H2] Looking for a 3-Wheel Forklift for Sale? Contact X Client
+
+[Body text] If you’re in the market for an electric three-wheel forklift, X Client has you covered.
+
+## **Dates**
+
+Use figures for dates and years. Generally, spell out the day of the week and the month, capitalizing the month. Do not use endings like *st, nd, rd or th* (1st, 2nd, etc.)
+
+– **Yes:** Saturday, January 24, 2012
+
+– **No:** Sat., Jan. 24th
+
+## **Decimals and fractions**
+
+Spell out fractions, unless stating dimensions.
+
+– **Yes:** two-thirds
+
+– **No:** 2/3
+
+– **Yes:** 8 3/4 inches
+
+– **No:** eight and three-fourths inches
+
+– **No:** 8-3/4 inches
+
+Use decimal points when a number can’t be easily written out as a fraction, like 1.375 or 47.2. Always use numerals and a period to indicate decimal amounts. For amounts less than 1, use the numeral 0 before a decimal.
+
+– **Yes:** 1.23
+
+– **No:** one point two-three
+
+Resources:
+
+- Writing Explained: AP Style Fractions
+- AP Stylebook – decimal units
+
+## **Numbered lists and bullet points**
+
+For all bullet and numbered lists, practice parallelism in your lists, and introduce the list with a short introductory phrase or sentence.
+
+Always capitalize the first word following a bullet point.
+
+Use sentence case in a bullet point's bolded lede, not AP title case.
+
+**How you can best use bullet points:**
+
+**1) Use bullet points if discussing a subtopic for only a few sentences**. If it gets longer than ~88 words, or multiple paragraphs, do not use bullet points — use numbered subheads instead. 
+
+!bullet list.png
+
+^^ **For example →** This is a subsection of a subsection and can work as a numbered list: 
+
+**Before:**
+
+!bulletlist1.png
+
+**After:**
+
+!bulletlist2.png
+
+**2) Do not include bullet points in subheads.** Bullets are all about keeping things short and sweet. But it’s ok if it’s a pseudo-subhead, like the screenshot below. That screenshot has bullets with a bolded lead-in, where the content that follows is short. Bolding the intro to the short bullet like that and making sure that bolded point is parallel helps with skimmability.
+
+**Pseudo-subhead example:**
+
+!pseudosubhead.png
+
+**3) Could the bullet points become a listicle?** If so, make sure any numbered subheads are left-aligned to allow for bullets within:
+
+!leftaligned.png
+
+Here’s a generic example of two potential formatting setups.
+
+!Screenshot.png
+
+**4) Avoid nesting bullets (bullets within bullets).** These often defeat the purpose of bullet points. The two-paragraph bullets look funky more often than not, so we should find another way to format these!
+
+**Nesting examples to avoid:**
+
+!nesting1.png
+
+!nesting2.png
+
+See also: Bullet Point Punctuation
+
+Resources:
+
+- Parallel Structure in Professional Writing
+- How and Why to Make Your Lists Parallel
+- Using Heading Effectively: Parallel Structure
+
+## **Percentages**
+
+Use the % symbol, with no space, instead of spelling out “percent.” Always use numerals to express percentages. If necessary, use decimals – not fractions – to express numbers less than 1%.
+
+If fewer than 1%, use the numeral 0 before the decimal. (ex: 0.25%)
+
+– **Yes:** 3.25%
+
+– **No:** three and one-fourth percent
+
+– **No:** 3.25 %
+
+– **No:** 3.25 percent
+
+Resources:
+
+- AP Stylebook – percent, percentage, percentage points
+
+## **Ranges and spans**
+
+Use a hyphen (-) to indicate a range or span of numbers.
+
+– It takes 20-30 days.
+
+Note: If both numbers in a range are followed by “millions”, “%”, etc., use these expressions in both numbers in the range.
+
+– **Yes:** $11 million-$21 million
+
+– **No:** $11-$21 million
+
+– **Yes:** 10%-12%
+
+– **No:** 10-12%
+
+Resources:
+
+- AP Stylebook – ranges
+- How to Write About Ranges
+
+## **Money**
+
+Always use numerals for monetary units, even if the number is less than 10. When writing about US currency, use the dollar sign before the amount. Include a decimal and number of cents if more than 0.
+
+– $2
+
+– $19.99
+
+When writing about other currencies, follow the same symbol-amount format:
+
+– ¥1
+
+– €1
+
+## **Telephone numbers**
+
+Use dashes without spaces between numbers. Use a country code if your reader is in another country.
+
+– 555-867-5309
+
+– +1-404-123-4567
+
+If a project has specific instructions to add a call link in the CTA, write out the number and create the link by inserting "tel:" in front of the phone number.
+
+!phonenumber.png
+
+## **Temperature**
+
+Use numerals for all numbers except zero.
+
+Use the degree symbol — you can copy-paste it from this site: https://www.degreesymbol.net/ — DO NOT use the word “degree”
+
+Spell out the word “Fahrenheit” 
+
+Spell out the word “minus”
+
+Examples:
+
+- 98**°** Fahrenheit
+- The overnight low was minus 10º Fahrenheit.
+
+*Note that our in-house directives here differ from AP Style.*
+
+## **Time**
+
+Use numerals and “a.m.” or “p.m.” with a space in between. Don’t use minutes for on-the-hour time. Separate hours from minutes with a colon (without a space in between).
+
+– Yes: 7 a.m.
+
+– Yes: 7:30 p.m.
+
+– No: 7 AM
+
+Use a hyphen between times to indicate a time period.
+
+– 7 a.m.-10:30 p.m.
+
+Specify time zones when writing about an event or something else people would need to schedule. We default to EST.
+
+Abbreviate decades when referring to those within the past 100 years.
+
+– the ’00s
+
+– the ’90s
+
+When referring to decades more than 100 years ago, be more specific:
+
+– the 1900s
+
+– the 1890s
+
+Resources:
+
+- AP Stylebook: times
+- How to Write About Time in AP Style
+
+---
+
+# **Part 3: Punctuation**
+
+## **Ampersands**
+
+Don’t use ampersands unless one is part of a company or brand name.
+
+– Lucy and Ricky
+
+– Ben & Jerry’s
+
+## **Apostrophes**
+
+The apostrophe’s most common use is making a word possessive. If the word already ends in an s and it’s singular, you also add an s. If the word ends in an s and is plural, just add an apostrophe.
+
+– The doughnut thief ate Sam’s doughnut.
+
+– The doughnut thief ate Chris’ doughnut.
+
+–  It was the business’s best recipe.
+
+– The doughnut thief ate the managers’ doughnuts.
+
+Resources:
+
+- The Apostrophe
+- How to Use Apostrophes: Rules and Examples
+- AP Stylebook – possessives
+- AP Stylebook – apostrophe
+
+## **Bullet point punctuation**
+
+- Use periods after every bullet point that contains a full sentence.
+
+!screenshot1.png
+
+- Use a period after every bullet point that completes the introductory stem as a full sentence — even if the bullet itself is a fragment.*
+
+!screenshot2.png
+
+- Do not use punctuation after a bullet point that does not contain a full sentence and does not complete the stem.
+
+!screenshot3.png
+
+- You can separate the bullet point's introductory phrase with a colon OR a period.
+
+!TinyTake_20-12-2021-09-29-08.png
+
+**OR**
+
+!lightshot1.png
+
+**^^ Either works!**
+
+The guiding rule for bullet points should always be **consistency** and what makes practical sense for that bullet list. For example, if we’re adding content to an existing page, and you format your bullets per our in-house style in the new content, update the rest of the page to mirror that styling so it doesn’t look out of place. And then abide by this consistently across the pages in the content batch. Overall, **our goal is to be clean and consistent**.
+
+Remember to **bold the colons** in a bullet list in addition to the bullet text itself.
+
+Example:
+
+!bold.png
+
+**^^ Here, we want to bold those colons!**
+
+See also: Numbered lists and bullet points
+
+Resources:
+
+- AP Stylebook – lists, bullet points
+- Punctuating Bullet Points
+    - Note: You’ll notice in this blog there is a comment directed at whether bullets with single words/ideas that complete an introductory stem should have a period after. Overall, punctuation on a list like this with single words can look a little stilted. **With that in mind, you *should* skip adding period punctuation in these cases.**
+    
+    !examplelist.png
+    
+
+## **Colon**
+
+The only time a colon is necessary is to introduce a bulleted list:
+
+!example1.png
+
+Or to set off an introductory phrase from the main part of a bulleted list:
+
+!example2.png
+
+Do not use colons to offset a separate thought — use an em dash instead.
+
+– **No:** He could only think about one thing all day: the cookies waiting for him in the cookie jar at home.
+
+– **Yes:** He could only think about one thing all day — the cookies waiting for him in the cookie jar at home.
+
+## **Commas**
+
+When writing a list, don’t use the serial comma (also known as the Oxford comma — the comma before the “and”).
+
+– **Yes:** I like singing off-key, eating the last Oreo and finger painting.
+
+– **No:** I like singing off-key, eating the last Oreo, and finger painting.
+
+Use a comma before “but” only when “but” is connecting two independent clauses.
+
+– I would quit my job, but I love my job so much.
+
+The AP ruling on commas for short introductory phrases is a bit vague. A sentence with a long (more than four words) introductory clause would definitely need one: “When he had tired of the mad pace of New York, he moved to Dubuque.” However, the comma can be omitted after short phrases if no ambiguity would result: “During the night he heard many noises.” Based on this, words like **But** and **Finally** are short introductory phrases, so the comma isn’t needed!
+
+Resources:
+
+- Not sure where to put the comma or question mark?
+- Quick guide to commas
+- More on commas
+- Using Commas
+- Do you need a comma before but?
+
+## H**yphens and dashes**
+
+Use a hyphen (-) without spaces on either side to link words into single phrase, or to indicate a span or range.
+
+– first-time user
+
+– Monday-Friday
+
+Use an em dash (—) with spaces on either side to signal a change in thought, a series within a phrase or to attribute a quote. Do not use the slightly narrower en dash.
+
+– Walmart — the well-known retail giant — is the world's single largest employer.
+
+– She made a list of all the things — like swimming, tanning and sight-seeing — that she wanted to do on her vacation.
+
+**How to make the em dash:**
+
+- Press Ctrl+Alt+Minus (on the numeric keypad)
+- On a Mac, you can hit Shift + Option + Hyphen
+- On a PC, you can hold down the Alt key as you type 0151 on the numeric keypad
+- Choose Symbol from the Insert menu, and then select Em Dash from the Special Characters tab.
+
+Resources:
+
+- The Hyphen - Tip Sheet
+- How to Use a Hyphen Correctly
+- AP Stylebook – em dash
