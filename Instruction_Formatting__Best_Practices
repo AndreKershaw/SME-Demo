@@ -1,0 +1,228 @@
+While we’re still learning how best to prompt TeamAI to achieve the ideal output, we’ve come a long way! Here are a few best practices we’ve collected on this journey.
+
+**Please note that many of the following primarily apply to Anthropic Claude models, and to some extent, Gemini models. Open AI models have some different preferences! Since things in the AI arena change so quickly, the best thing to do is use this guide as a starting point, then search for the latest resource from your model provider of choice. The “Talk to the Machine” guidance at the bottom of this guide should also be very helpful.**
+
+## 1. Use the Right Formatting
+
+From Anthropic’s prompt engineering guidelines:
+
+Use XML tags like <instructions>, <example>, and <formatting> to clearly separate different parts of your prompt. This prevents Claude from mixing up instructions with examples or context. Be consistent: Use the same tag names throughout your prompts, and refer to those tag names when talking about the content (e.g, Using the contract in <contract> tags...).
+
+We’ve had enormous success with this method! Here’s an example of what it looks like in practice:
+
+<critical_pre_flight_check>
+
+⚠️ BEFORE WRITING:
+
+1. Search WebFX Client Copywriting Notes collection for {{client}}
+
+2. Review the Guru Card line by line for tone, voice, and writing preferences
+
+3. CHECK FOR KEYWORD HIGHLIGHTING INSTRUCTIONS: If the Guru Card contains instructions about highlighting keywords, STOP immediately, inform the user, and ask if they want you to modify HTML output with those preferences
+
+</critical_pre_flight_check>
+
+Make sure you begin with an open tag — <example> — and end with a closing tag containing a backslash — </example>.
+
+We use similar formatting to denote sections of a prompt. For example:
+
+<!-- ============================================ -->
+
+<!-- SHARED RESOURCES - Referenced by all workflows -->
+
+<!-- ============================================ -->
+
+The presence of an exclamation point signifies a markup declaration rather than a regular element tag. These declarations provide information about the prompt's structure.
+
+You can absolutely use emojis in a prompt as well, as they can really help call human attention to a given section, but make sure you’re using XML to make things clear for the agent!
+
+### Working With a GPT Model
+
+As noted in the introduction, GPT models are different beasts. Rather than XML tags, they like bracketed headers or directive markers followed by plain text:
+
+“[TONE] Be concise, professional, encouraging, and action-oriented.” 
+
+You can also write instructions in Python if you feel so inclined. 
+
+Without those big section headers we have in an XML-formatted prompt, you might have a harder time finding things in a GPT prompt, so consider making your bracketed headers a different text color in the change log to add some visual differentiation. 
+
+## 2. Be Active and Concise
+
+Just as in copywriting, we want to use crisp, active language when writing for agents. Here’s an example of an improvement:
+
+1. **First version**
+    
+    Immediately look at the user's {{request_type}} value.
+    
+    If "New" → go through everything in <resource review>, then follow all instructions between "<new page workflow>" and "</new page workflow>"
+    
+2. **Second version**
+    
+    Execute the workflow corresponding to the {{request_type}} value:
+    
+    {{request_type}} = "New"
+    
+    → Review <resource review>
+    
+    → Execute <new page workflow>
+    
+
+The first tells the agent to "look at" the value, then separately tells it what to do, creating a two-step cognitive process where the agent might pause between steps and default to asking for confirmation.
+
+The second version is sharp, short and definitive. No need for questions there! When thinking about how to frame your instructions, keep this quote from Anthropic in mind:
+
+"When interacting with Claude, think of it as a brilliant but very new employee (with amnesia) who needs explicit instructions. Like any new employee, Claude does not have context on your norms, styles, guidelines, or preferred ways of working. The more precisely you explain what you want, the better Claude’s response will be.”
+
+## 3. Avoid Redundancy
+
+Many AI models are capable of following one or more workflows within a single prompt. The Shared Resources element above tells the EXPO prompt that everything in that section applies regardless of the page type it’s processing.
+
+It might be your instinct to duplicate resources and instructions that apply to every workflow within each individual one to keep it “readily accessible” and in line with the complete instruction set — for instance, including the same example page text in the prompt multiple times in different sections. After all, we humans like when we have the information we need in multiple places so we don’t have to hunt it down again next time we need it. AI, however, is the opposite, and it prefers to read common information only once. As a result, including duplicates significantly increases the cognitive load of the prompt (and the cost to run it!), which actually makes the agent less efficient and more prone to crashing.
+
+When you’re building a prompt, stay mindful of whether any steps apply to multiple phases of the process. If so, they can be organized in a shared section as described above — and if you have them clearly marked in XML tags, it’s easy to tell the prompt to “refer to <example_writing_rules>” where appropriate, no matter where those rules might be situated in the prompt as a whole.
+
+To ensure this works well, use detailed tags like <linking_instructions>, <longform_lite_example>, and <bullet_formatting> to clearly separate different parts of your prompt. This prevents Claude from mixing up instructions with examples or context. Be consistent: Use the same tag names throughout your prompts, and refer to those tag names when talking about the content (e.g, Using the contract in <contract> tags...).
+
+You can also nest tags — <outer><inner></inner></outer> — for hierarchical content.
+
+## 4. Use Clear Instruction Formatting
+
+Some formatting styles are easier for AI to parse than others. We’ve had great results using arrows and bullets like these:
+
+Keyword Research & Analysis:
+
+→ Analyze {{h1_keyword}} for:
+
+• Search intent (informational/transactional/navigational)
+
+• Related long-tail variations
+
+• Exact match integration opportunities
+
+→ Review {{supporting_keywords}} for natural integration:
+
+• Identify which can be used exactly as provided
+
+• Note which need variations for natural flow
+
+• Plan placement throughout content structure
+
+→ Check top 10 SERP results for {{h1_keyword}}:
+
+• Content entities, themes, and structure patterns
+
+• Unique elements competitors use
+
+• Content gaps you can fill
+
+For situations that call for a bit of logic as to when which instructions apply, use a decision tree:
+
+Structure Decision Tree:
+
+IF {{outline}} contains content (not "none"):
+
+→ Follow {{outline}} exactly as provided
+
+→ This takes highest priority
+
+ELSE IF {{example_page}} contains URL or example text (not "none"):
+
+→ Review {{example_page}} for structure patterns
+
+→ Emulate heading hierarchy and content flow
+
+→ DO NOT copy content verbatim
+
+ELSE:
+
+→ Use <default_product_description_template> below
+
+## 5. Avoid Lengthy Example and Resource Integrations
+
+Giving the agent an example of a good page is an excellent way to make sure you get good pages in the output. We just don’t necessarily want to do that in the prompt. Adding examples to a datastore instead lets the agent review them much more quickly and cuts token use for the prompt (win-win!).
+
+As we covered above, resources are easiest to parse in XML tags, so you might label them <example_one> content </example_one> and so on.
+
+Once your resource is complete, save it as a .txt file and add it to your datastore! Txt files are tiny and super easy to parse, so models tend to prefer them to Google Docs and PDFs.
+
+As far as how your resources are written, ignore the temptation to just resave a document created for humans and drop it into a datastore. Sure, the agent can read it, but you’ll likely be providing a lot of background information on the company, affirmations about overcoming imposter syndrome, and mindset-related content that the agent doesn’t need and literally can’t use. All that extra content consumes tokens and attention, making the agent slower and less effective. 
+
+Our agents currently use the Agentified Resources datastore (located in the PSEO Resources) collection, which contains rewritten versions of our WebFX House Style Guide and other documents. If you’re building a new agent that will need these resources, you can connect to that datastore as well.
+
+## 6. Use Correct Structure to Integrate Highlighting
+
+If your agent covers page additions, you’ll want to make it capable of outputs in WebFX blue (#8ab0ea). For the moment, that requires output to be written in html. Here’s what the code to achieve that might look like:
+
+<output_formatting_instructions>
+
+HTML Output Format:
+
+- Present all HTML content in a code block using triple backticks with html syntax
+- This creates a formatted, copyable window for the user
+- For Additional workflow: Highlight new content in BLUE (#8ab0ea)
+
+Formatting Method:
+
+New content for Additional workflow (blue highlight):
+
+<span style="background-color: #8ab0ea;">new content text</span>
+
+IMPORTANT - Proper Span Placement:
+
+✓ CORRECT: <h2><span style="background-color: #8ab0ea;">Heading text</span></h2>
+
+✓ CORRECT: <p><span style="background-color: #8ab0ea;">Paragraph text</span></p>
+
+✗ WRONG: <span style="background-color: #8ab0ea;"><h2>Heading text</h2></span>
+
+✗ WRONG: <span style="background-color: #8ab0ea;"><p>Paragraph text</p></span>
+
+Rule: Always place span tags INSIDE block-level elements (h1, h2, h3, p, li), never wrapped around them.
+
+Code Block Structure Example:
+
+Open with three backticks followed by "html"
+
+<h1>Your HTML content here</h1>
+
+<p><span style="background-color: #8ab0ea;">New content with blue background</span></p>
+
+Close with three backticks
+
+</output_formatting_instructions>
+
+**That “Proper Span Placement” instruction is, indeed, all-caps IMPORTANT.** Html uses both block styles (<h2> and <p>) and inline styles (<span style>). Inline styles **must go inside** of block styles. If the tags are backward, your highlighting won’t show up after conversion, even though everything else is technically correct.
+
+## 7. Be Mindful of What You Integrate
+
+In the early versions of EXPO, it formatted every instance of a keyword in purple text to make them visible to the user. Cool, right? Unfortunately, every time it did that, the agent had to write span style code into the html while it was also trying to generate content, resulting in a lot of extra processing and cognitive load. The latest iteration of that feature uses a sidebar prompt to format the first use of each keyword in purple text after the agent has already completed the first-draft generation. As a result, both phases are faster (because the agent is doing one job at a time), and the user is less likely to experience a hang or crash.
+
+If there’s a cool feature or function you’d love to build into your agent, consider whether you’re better off doing a direct integration or achieving it with a subsequent prompt.
+
+By the same token (pun kind of intended), 
+
+## 8. Consider Attention Weight
+
+Agents are subject to a concept called “attention weight.” If you’ve ever been reading a beefy novel and thought, “Wait, I don’t even remember who this character is” upon starting a new chapter, you’ve been there. The further an agent gets from a task’s origin point, the more likely it is to forget — or even deliberately ignore — instructions. 
+
+Since an agent’s attention is finite, you want to be mindful of how much you’re asking it to do. If you’re noticing noncompliant output, consider adding a stop point in the backend instructions and having the user feed the agent a prompt on how to continue. LLMs are inherently conversational, and they place tremendous importance on user interaction. By saving a prompt the user can feed the agent, you “reset” the attention weight at that point in the process, minimizing drift and easing overall cognitive load. 
+
+## 9. Watch Your Instruction Length
+
+It turns out that there is a limit to how many instructions we can give a single agent, and that limit is 64,491 characters. Go over by a single period, and TeamAI will refuse to save your prompt. 
+
+If you run over the limit without accomplishing everything an agent is meant to do, it may be time to look at multiagent orchestration, move information to a datastore, or incorporate agent skills instead. 
+
+## And Finally, Talk to the Machine
+
+Who knows Claude better than Claude? If a prompt or one of its pieces is behaving unexpectedly, open a chat with a high-power edition of whatever model you’re building on, then lead with something like:
+
+“Hi! I've built an agent that [task]. When run, it [describe behavior]. Can you evaluate this portion of the prompt I've included below and determine what might be the issue? <prompt> </prompt>”
+
+You can also give it the entire prompt and ask how it could be made faster and more stable. You don’t have to take every recommendation, but you’ll likely find a few good ones!
+
+When discussing how to improve an agent with a chat model, it often helps to provide contextual information, such as:
+
+- How the agent should be behaving.
+- Whether any datastores or resources are involved — if so, you may want to provide them.
+- What tools the agent is using to accomplish a goal — if the agent needs to run a retrieve, make sure your chat assistant is clear on this so it doesn’t provide instructions that limit external actions in an effort to improve speed and cut token use.
