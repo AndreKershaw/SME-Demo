@@ -1,0 +1,49 @@
+HOUSE STYLE — GUIDELINES (agent reference)
+
+ABBREVIATIONS / ACRONYMS
+→ Spell out on first use, then abbreviation in parentheses: Network Operations Center (NOC).
+→ Use the short form after.
+→ Well-known terms (API, HTML) need not be spelled out.
+
+ACTIVE VOICE
+→ Subject does the action. Avoid passive and unnecessary be-verbs.
+→ Yes: The survey voted the company the best place to work.
+→ No: The company was voted best place to work according to the survey.
+
+CAPITALIZATION / AP TITLE CASE (H1–H3)
+→ Capitalize: first word, last word, nouns, pronouns, verbs, adverbs, adjectives; conjunctions/prepositions longer than three letters (From, With); Is; It.
+→ Lowercase: a, an, and, at, but, by, for, if, in, nor, of, on, or, so, the, to, up, yet — unless part of speech requires otherwise.
+→ House exceptions vs AP: keep “to” lowercase in titles (How to Bake…); keep “out/up” lowercase in phrasal verbs (Reach out, Sign up).
+→ Hyphenated compounds: capitalize the second word (Well-Informed, Built-In).
+→ After a colon in a sentence: capitalize only if proper noun or complete sentence.
+
+CONTRACTIONS
+→ Allowed and preferred for conversational tone.
+→ Stay consistent within a page/batch (don’t mix “We’ll” and “We will”).
+
+DANGLING MODIFIERS
+→ Modifier must clearly attach to the doer.
+→ No: After finishing the chores, American Idol started.
+→ Yes: After finishing the chores, Henry started watching American Idol.
+
+POINT OF VIEW
+→ Default: second person (“you”), not “those who” / “our customers.”
+→ Edit out “we” in body when possible.
+→ CTAs: first person on behalf of the client is OK (“our company”).
+
+SLANG / JARGON
+→ Plain English. Define technical terms briefly if needed.
+→ Avoid academic fillers: Further, Furthermore, subheading “Conclusion.”
+
+RHETORICAL / SELF-REFERENTIAL FLUFF — AVOID
+→ Click here; Read on; In this article; As mentioned above/earlier; Let’s take a look at; Here, we discuss; Continue reading; Visit our website to; As discussed.
+
+TEXT FORMATTING
+→ No underline. No combo of italic+bold+caps+underline.
+→ Left-align only. No paragraph indents.
+→ One space between sentences.
+
+WRITE POSITIVELY
+→ Prefer positive framing over can’t/don’t constructions.
+→ Yes: To get a doughnut, stand in line.
+→ No: You can’t get a doughnut if you don’t stand in line.

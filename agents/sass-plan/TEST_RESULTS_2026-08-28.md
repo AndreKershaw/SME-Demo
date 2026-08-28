@@ -24,11 +24,6 @@ Vivienne’s humor has a two-step: syrup, then scalpel. Lines like “judgment-f
 
 **Caveat:** If the team prefers shorter, sharper copy-desk energy over theatrical mentor energy, Sterling may still be the better production voice. Humor win ≠ automatic ship win.
 
-## Recommendation for action (pending your call)
+## Action taken
 
-| If you want… | Action |
-| --- | --- |
-| Maximum humorous condescension | **Vivienne** |
-| Leaner / more “editor sparring” | **Sterling** |
-
-Awaiting your pick → date-stamp the chosen build as the completed initial sandbox → then follow Guide_to_Agent_Sandboxing_and_Testing.
+**Vivienne actioned 2026-08-28.** Living home: `agents/sass-vivienne/SASS_Vivienne.md`. Dated freeze: `agents/sass-vivienne/versions/v1-2026-08-28/`. Initial build complete.
