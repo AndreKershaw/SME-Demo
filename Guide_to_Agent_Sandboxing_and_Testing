@@ -1,0 +1,104 @@
+Quick link to update communications document
+
+## 🚨⚠️ Note: Testing should happen on Thursdays. Most launch updates to Claude/models happen mid-week.
+
+## Glossary:
+
+- **Sandbox:** A testing environment for the agent builder to experiment in. Sandboxes are built in the Earned Media (EM) or GMG Admin (GA) workspace with **workspace** visibility. They should NOT be visible to the Copy Squad/GMG team.
+- **Testing Edition:** A testing environment containing a stable release that users can employ on live projects to evaluate its usability and output. Testing editions are built in the EM/GA workspace with **Organization**-level visibility. Copy Squad/GMG team members will be able to see and use them.
+- **Live Agent:** A published, polished agent that has passed all testing and is intended for use by the team at large. Live agents are built in the EM/GA workspace with **Organization**-level visibility. Copy Squad/GMG team members will be able to see and use them.
+
+## Quick Reference Table
+
+| **Agent Classification (FX)** | **Workspace and Visibility** |
+| --- | --- |
+| Sandbox | EM/GA Workspace - Workspace |
+| Testing Edition | EM/GA Workspace - Organization |
+| Live Agent | EM/GA Workspace - Organization |
+
+## Naming Conventions
+
+- **Sandbox:** [Agent] Sandbox
+- **Testing Edition:** [Agent] - Testing Edition
+- **Live Agent:** [Agent]
+- **Client Agent:** [Client Name] Copy Assistant
+
+## For New Releases
+
+Building something from scratch? Here are the versions you’ll need and a look at the overall process.
+
+### Building a New Agent
+
+The sandbox is an important tool that allows us to build and test new agents without causing confusion among the broader team or inadvertently allowing someone to use an unproven agent on projects. Obviously, the team has been instructed to only use approved agents, so this should never happen anyway, but we can still do our part to minimize confusion.
+
+When building a new agent, **you will create the Sandbox version first.** Complete your construction in the EM/GA workspace and set the visibility to the “Workspace” level in your initial setup. At this stage, the agent name, description and other finer points don’t have to be finalized, but we do recommend the “[agent] Sandbox” naming convention.
+
+From there, you’re ready to iterate! As soon as you have a working prompt in the agent’s instructions, start yourself a changelog in a Google Doc. While you can change this prompt as you go, it’s wise to build in “checkpoints.” Once you have a stable version, create a new tab in your changelog, move in a new copy, and then make additional changes from there. Continue this practice with every significant change to ensure you can always revert to the previous version if you need to. If so desired, once the new version proves itself, you can delete the preceding ones to keep things tidy.
+
+You’ll also want to log the agent in the AI Enablement Hub’s Core Agent List. Do this for the testing edition and live agent versions as well as you create them.
+
+### New Build Testing
+
+Once your sandbox has yielded a stable, consistent agent that can reliably execute its purpose, you’re ready to build a testing edition. Start by creating a new agent in the EM/GA workspace, but set the visibility for this one to “Organization.” Doing so will make the agent visible and usable everywhere, but **only editable in EM/GA** — which is just what we want. From there, just make an exact copy of your successful sandbox named “[agent] - Testing Edition.” You might also enter “For use by designated testers only. :)” in the description for clarity.
+
+**Important note:** Many of our agents rely on the “Think tool” to help process heavy cognitive loads. Select tools can only be enabled **after** the agent’s initial build and publishing! Therefore, if you turned on the Think tool in the sandbox in the course of your testing, you will have to enable it in your new testing edition in a separate step after the initial setup.
+
+Your next steps will be to coordinate with the AI Enablement Team Lead (AETL) to assemble a testing group and begin gathering feedback. The point at which you’re ready to move on will depend on the nature of the agent, but you should expect to go through various iterations and updates based on the feedback until you’re seeing reliable time savings and output quality reports.
+
+Use the “Testing” sample in this document to create some release notes for your pilot group. **Make sure you link to the version of the agent they’re supposed to use.**
+
+### New Build Live Release
+
+Once all stakeholders have agreed that the agent is ready (yay!), you’re clear to build the formal version. Again, start by creating a new agent in the EM/GA workspace and setting the visibility to “Organization.”
+
+Your live agent will just be named “Agent,” much like ATLAS, EXPO, etc. However, we do recommend spelling out any acronym you choose to use or otherwise providing a helpful descriptor of the agent in the name itself, e.g., “MAIL - Email Writing Agent.” The agent’s description will need to clearly outline what it does and who should be using it.
+
+Once the new agent is in place and properly logged, you’ll likely be looking at training sessions to accompany the release.
+
+## For Agent Updates
+
+Since we’re always working to stay on the cusp of innovation, agent builds will inevitably be subject to updates and upgrades. Here’s how to work through that process.
+
+### Check out the Sandbox
+
+Any updates to an agent should first be tested **at the sandbox level**. In many cases, the person who originally built the agent is likely to be the one updating it, just for the sake of familiarity. However, that’s not going to be true all the time, especially as all of us continue to level up our skills and uncover new information. To that end, if you’d like to update an existing agent you didn’t build, here’s the process.
+
+Any time someone is working on changes in a sandbox, they need to “check it out” by placing their initials after its name (e.g. ATLAS Sandbox - MP). Therefore, your first step is to check whether the sandbox is free by finding it in the relevant workspace’s agent list.
+
+If you see that someone has the sandbox checked out, reach out to them to confirm whether they’re still actively working on changes. If so, you’ll just have to wait — we don’t want to build secondary sandboxes and risk having to make multiple levels of updates mesh together.
+
+We should aim to complete our sandbox testing relatively quickly, in order to “check back in” the agent and allow others to make changes as needed. We can use our two week AI Enablement huddle sprints as a natural time box for testing in order to return sandboxes relatively quickly.
+
+Once you have the go-ahead to make changes and check out the sandbox per the above process, make sure you have edit access to the agent’s changelog. Add a new tab with a copy of the latest prompt, plus your initials and the date to signify that you’re making changes.
+
+### Test on Your Own
+
+Once the agent is behaving as expected consistently and across multiple test chats — 5-10 is usually a good benchmark depending on the scale of the changes — it’s time to determine next steps based on the scope of the update.
+
+This agent update document in our hub details what sort of testing might be in order before taking the update to the live agent. In a nutshell, if you’re making larger changes like a model shift or a substantial alteration to the user experience, you’re looking at pushing the changes to your testing edition and coordinating a pilot group with the AETL. Minor tweaks to tools or new resource additions may be able to go live directly.
+
+The remainder of this guide will focus on the full testing process for large-scale changes.
+
+### Confirm Rough Draft Quality
+
+First, we want to have an editor confirm that the output from the update is equal or superior to what we were getting from the original. To assemble a testing document, we’ll create a blind A/B test for a PQ-focused evaluation. Here’s what it looks like in practice.
+
+Send your blind A/B test to Michelle to schedule with a Copy WOW editor.
+
+With a positive confirmation from the editor test, you can move on to the next phase!
+
+### Launch to Testing Edition
+
+Here, we’ll put together a focus group to use the new version of the agent and log feedback on its function, output quality and overall usability. Since the sandbox is only visible to the EM/GA workspace, they must use the testing edition of your agent for this phase. This document contains a sample of the testing release email you can send to the pilot group. Again, include a link to the correct version of the agent for easy bookmarking, and be sure to specify the desired duration of the test.
+
+**Important note:** Some agents may not have a testing edition, as these releases are required only once a build is in use by the team and changes to it would cause disruption. If the agent you’re updating doesn’t have one yet, you’ll need to create one per the steps outlined above in the New Build Testing section.
+
+As described in that section, this part of the process is a bit of a waiting game as the pilot group evaluates and reports on the updates. Once the test parameters have been fulfilled, you can check the sandbox back in and move on to the launch.
+
+### Take the Updates Live
+
+Various documents will need to be created and updated before we can formally launch and announce an agent update. Again, the agent update protocol template is going to be integral in guiding you through here.
+
+You’ll also need to review the communication templates in this document to determine which apply to your situation, and then make sure you update the rest of the team. Ideally, we want to time launches around Copy Squad Write Clubs to streamline information delivery. You can see the date of the next Write Club by checking the Copy Team calendar.
+
+When it’s time to complete the process and unleash your creation upon the world, **make sure you link to the newest version of the agent so it’s crystal clear which one team members should use**. Since the testing edition was the proving ground for the live agent, there should theoretically be no harm in someone continuing to use it by accident, but again, clear is kind, and we want to minimize confusion wherever possible.
