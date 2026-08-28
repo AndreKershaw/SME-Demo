@@ -1,0 +1,8 @@
+---
+description: Always-on SME-Demo agent workflow for this repository only
+alwaysApply: true
+---
+
+Follow `AGENTS.md` on every session in this repository.
+
+When building an agent, follow `Instruction_Formatting__Best_Practices`. After an initial build, immediately use `Guide_to_Agent_Sandboxing_and_Testing` and tell the user the next validation steps. Use `In-house_style_guide` as the language-style authority when drafting or evaluating content.
