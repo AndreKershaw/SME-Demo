@@ -1,0 +1,23 @@
+HOUSE STYLE — BASICS (agent reference)
+Authority: in-house style guide. Prefer client notes when available; otherwise apply these rules.
+
+WRITE FOR ALL READERS
+→ Use specific headings/subheadings to group ideas.
+→ Lead with the most important information (inverted pyramid).
+
+BE CLEAR
+→ Avoid vague language and unnecessary jargon.
+→ Get to the point quickly.
+→ Break long paragraphs and long sentences.
+
+BE CONCISE
+→ Prefer short words and short sentences.
+→ Cut unnecessary modifiers and filler.
+→ Do not repeat the same words/phrases in consecutive sentences.
+
+BE CONSISTENT
+→ Follow house style throughout unless client notes override.
+
+DEFAULT
+→ Follow AP Style when unsure.
+→ If choosing between conflicting site examples, default to AP and note the decision.

@@ -1,0 +1,52 @@
+HOUSE STYLE — NUMBERS (agent reference)
+
+GENERAL
+→ Spell out numbers under 10 and numbers that begin a sentence.
+→ Use numerals for 10+.
+→ Same rule for ordinals (first place; 12 start next week).
+→ Always numerals for: addresses, ages, court votes, dates/years/decades, decimals/%/fractions >1, dimensions, distances, 1 million+, speeds, temperatures.
+→ Centuries: ninth century; 20th century.
+→ School grades: first–ninth spelled; 10+ numerals.
+→ Commas in numbers 1,000+.
+
+KEYWORDS EXCEPTION
+→ Numerals under 10 OK in keyword-led subheads; spell out in body.
+
+DATES
+→ Figures for dates/years. Spell out day and month. No st/nd/rd/th.
+→ Yes: Saturday, January 24, 2012.
+
+FRACTIONS / DECIMALS
+→ Spell out fractions except dimensions (two-thirds; 8 3/4 inches).
+→ Decimals as numerals; leading 0 for amounts <1 (0.25).
+
+LISTS
+→ Parallel structure. Introduce with a short phrase/sentence.
+→ Capitalize first word after each bullet.
+→ Bolded bullet ledes use sentence case, not title case.
+→ Prefer subheads over bullets if content runs long (~88+ words / multi-paragraph).
+→ No bullets inside subheads. Avoid nested bullets.
+
+PERCENTAGES
+→ Use % with no space; always numerals (3.25%, 0.25%). Never “percent.”
+
+RANGES
+→ Hyphen, no spaces: 20-30 days.
+→ Repeat unit/%/$ on both sides when needed: 10%-12%; $11 million-$21 million.
+
+MONEY
+→ Always numerals with symbol: $2, $19.99.
+
+PHONE
+→ Dashes, no spaces: 555-867-5309; +1-404-123-4567.
+
+TEMPERATURE
+→ Numerals except zero. Use ° symbol, not the word “degree.”
+→ Spell out Fahrenheit and minus: 98° Fahrenheit; minus 10° Fahrenheit.
+
+TIME
+→ Numerals + spaced a.m./p.m.: 7 a.m.; 7:30 p.m. (not 7 AM).
+→ No :00 for on-the-hour.
+→ Ranges with hyphen: 7 a.m.-10:30 p.m.
+→ Default time zone EST when scheduling matters.
+→ Recent decades: the ’90s; older: the 1890s.
